@@ -38,6 +38,16 @@
   gap: 1.5rem;
 }
 
+.stars {
+  display: flex;
+  gap: 0.25rem;
+  color: #fbbf24; /* Amber color for stars */
+}
+
+.star {
+  flex-shrink: 0;
+}
+
 .quoteIcon {
   color: hsl(var(--primary));
 }

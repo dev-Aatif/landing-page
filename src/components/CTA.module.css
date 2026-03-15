@@ -10,8 +10,8 @@
 }
 
 .content {
-  background: hsl(var(--foreground));
-  color: hsl(var(--background));
+  background: hsl(222 47% 6%); /* Consistent dark card background */
+  color: hsl(var(--foreground));
   padding: 5rem 2rem;
   border-radius: 32px;
   text-align: center;
@@ -19,7 +19,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  box-shadow: 0 40px 100px -20px hsla(var(--primary), 0.3);
+  box-shadow: 0 40px 100px -20px hsla(var(--primary), 0.2);
+  border: 1px solid hsl(var(--border));
 }
 
 .title {
@@ -33,7 +34,7 @@
 
 .subtitle {
   font-size: 1.25rem;
-  opacity: 0.8;
+  color: hsl(var(--muted-foreground));
   max-width: 600px;
 }
 
