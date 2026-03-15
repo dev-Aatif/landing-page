@@ -1,3 +1,4 @@
+"use client";
 import styles from './Footer.module.css';
 import Link from 'next/link';
 
@@ -42,7 +43,7 @@ export default function Footer() {
             <h4>Product</h4>
             <Link href="#features">Features</Link>
             <Link href="#pricing">Pricing</Link>
-            <Link href="#">What's New</Link>
+            <Link href="#">What&apos;s New</Link>
           </div>
           <div className={styles.linkColumn}>
             <h4>Company</h4>
