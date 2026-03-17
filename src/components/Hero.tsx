@@ -1,5 +1,5 @@
 import styles from './Hero.module.css';
-import Image from 'next/image';
+
 
 export default function Hero() {
   return (
@@ -22,20 +22,6 @@ export default function Hero() {
             </button>
           </div>
           <p className={styles.trustText}>No credit card required. Trusted by 2,000+ teams.</p>
-        </div>
-        
-        <div className={`animate-fade-in ${styles.imageContainer}`}>
-          <div className={styles.imageWrapper}>
-            <Image 
-              src="/hero-mockup.png" 
-              alt="NoteAI Dashboard Mockup" 
-              width={800} 
-              height={800} 
-              className={styles.image}
-              priority
-            />
-            <div className={styles.glow} />
-          </div>
         </div>
       </div>
     </section>
